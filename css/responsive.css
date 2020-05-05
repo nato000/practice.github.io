@@ -1,0 +1,52 @@
+/* lg */
+@media only screen and (max-width : 1200px) {
+}
+
+/* md */
+@media only screen and (max-width : 992px) {
+}
+
+/* sm */
+@media only screen and (max-width : 768px) {
+    .smh {
+        font-size: 170%;
+        line-height: 120%;
+    }
+    .decr {
+        font-size: 150%;
+    }
+
+    
+    .col-sm
+    {
+        min-width: 760px;
+    }
+
+
+    .mybtn1 {
+        font-size: 150%;   
+    }
+
+    .list1 {
+        font-size: 150%;
+    }
+
+}
+
+/* xs */
+@media only screen and (max-width : 480px) {
+    .col-sm {
+        min-width: 480px;
+    }
+
+    .itemimg {
+        height: 50%;
+        width: 50%;
+        margin:0px;
+    }
+
+    table .table-sm {
+        width:40%;
+        font-size: 6pt;
+    }
+}

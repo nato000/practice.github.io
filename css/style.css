@@ -1,0 +1,273 @@
+body {
+  background-color: #fbf3eb !important ;
+  background: url(../images/bg-btm.gif) bottom repeat-x,
+    url(../images/bg-top.gif) top repeat-x;
+}
+
+.image2 {
+  margin-top: 15px;
+  width: 103%;
+}
+
+.mybtn {
+  font-family: "Trebuchet MS";
+  font-size: 10pt;
+  background: #eff5f8;
+  color: #17577a;
+  border: 1px solid #eff5f8;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mybtn1 {
+  font-family: "RotondaC-B";
+  font-size: 10pt;
+  background: #3da0d1;
+  color: white;
+  border: 2px solid #c5e5f9;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  margin-left:15%;
+  margin-top: -15px;
+}
+
+.sbtn {
+  background: white;
+  color: black;
+  font-size: 12pt;
+  font-weight: 700;
+  padding: 15px;
+  border: 1px solid white;
+  display: inline;
+}
+
+@font-face {
+  font-family: 'RotondaC-B';
+  src: url('../fonts/RotondaC-Bold.eot');
+  src: url('../fonts/RotondaC-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/RotondaC-Bold.svg#RotondaC-Bold') format('svg'),
+       url('../fonts/RotondaC-Bold.ttf') format('truetype'),
+       url('../fonts/RotondaC-Bold.woff') format('woff'),
+       url('../fonts/RotondaC-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RotondaC';
+  src: url('RotondaC.eot');
+  src: url('RotondaC.eot?#iefix') format('embedded-opentype'),
+       url('RotondaC.svg#RotondaC') format('svg'),
+       url('RotondaC.ttf') format('truetype'),
+       url('RotondaC.woff') format('woff'),
+       url('RotondaC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.myh1 {
+  color: #17577a;
+  text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 1px 0,
+    white 1px -1px 0;
+}
+
+.myh2 {
+  color: #17577a;
+  margin-left: 10px;
+  text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 1px 0,
+    white 1px -1px 0;
+}
+
+.smh {
+  font-family: "RotondaC-B";
+  color: #2d5d7e;
+  font-size: 14pt;
+  line-height: 13pt;
+  display: block;
+}
+
+.smh1 {
+  font-family: "RotondaC-B";
+  color: #2d5d7e;
+  font-size: 17pt;
+  line-height: 13pt;
+  text-shadow: white 2px 2px 0, white -2px -2px 0, white -2px 2px 0,
+    white 2px -2px 0;
+}
+
+.hd1 {
+  font-family: "Trebuchet MS";
+  display: block;
+  font-size: 11pt;
+  color: #2d5d7e;
+  text-decoration: underline;
+  margin-bottom: 6px;
+  padding-left: 30px;
+}
+
+.newstxt {
+  font-family: "Trebuchet MS";
+  display: block;
+  color: black;
+  font-size: 11pt;
+  padding-left: 30px;
+}
+
+.decr {
+  display: block;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  font-family: "Trebuchet MS";
+  font-size: 11pt;
+}
+
+
+
+.list1 {
+  font-size: 11pt; 
+  display: block; 
+  margin-left: 30px;
+}
+
+.itemh {
+  display: block;
+  margin: 15px;
+  margin-left: 0px;
+  color: black;
+  font-family: "RotondaC-B";
+  font-size: 13pt;
+}
+
+.bgimage {
+  background-image: url(../images/cloud.gif);
+  background-position: 0px 20px;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bgimage1 {
+  background-image: url(../images/fld1.gif);
+  background-repeat: no-repeat;
+  background-position: 0px -10px;
+  background-size: contain;
+  display: block;
+  padding-bottom: 80px;
+}
+
+.itembg {
+  background-image: url(../images/fld3.png); 
+  font-size: 10pt;
+  display:block; 
+  background-repeat: no-repeat;
+  padding:3%; 
+  background-position: 0 10px; 
+  background-size: 100% 90%;
+}
+
+.itembg1 {
+  background-image: url(../images/fld7.png); 
+  font-size: 10pt;
+  display:block; 
+  background-repeat: no-repeat;
+  padding: 3%; 
+  background-size: 30% 90%;
+}
+
+.newslnk {
+  display: block;
+  font-family: "Trebuchet MS";
+  color: black;
+  font-size: 11pt;
+  text-decoration: underline;
+  margin-left: 30px;
+}
+
+.listlnk {
+  font-family: "Trebuchet MS";
+  color: black;
+  font-size: 11pt;
+}
+
+.listlnk:active {
+  font-family: "Trebuchet MS";
+  color: black;
+  font-size: 11pt;
+  text-decoration: underline;
+}
+
+
+.navlnk {
+  display: inline;
+  font-family: "Trebuchet MS";
+  color: #2d5d7e;
+  font-size: 11pt;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  background: url(../images/icons.png) no-repeat;
+}
+
+.src {
+  color: #eff5f8;
+  border: 1px solid #eff5f8;
+  border-radius: 20px;
+}
+
+footer {
+  background-position-y: 100%;
+  height: 150px;
+}
+
+.itemimg {
+  height: 90%; 
+  width: 90%;
+  display: block;
+}
+
+.itemimg1 {
+  height: 40%;
+  width: 40%;
+  display: block;
+}
+
+.form-check-label
+{
+  font-size: 11pt;
+  font-family: 'Trebuchet MS';
+}
+
+.filter {
+  list-style-image:  url(../images/plus.png);
+}
+
+.filter.active {
+  list-style-image: url(../images/min.png);
+}
+
+.filter .child{
+  display: none;
+}
+
+.filter.active .child {
+  display: block;
+  list-style-image: none;
+} 
+
+.cl1 {
+  max-width: 25%;
+}
