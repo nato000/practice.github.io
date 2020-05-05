@@ -1,0 +1,63 @@
+﻿<category id="13">
+   <product id="1">
+        <title>Комбинезон</title>
+        <price>1500</price>
+        <image>1.jpg</image>
+         <description>Чудесный комбинезон с капюшоном. Такой комплект подойдет и мальчику, и девочке.</description>
+    </product>
+      <product id="2">
+        <title>Красный комбинезон</title>
+        <price>1570</price>
+        <image>2.jpg</image>
+         <description>Красный комбинезон с капюшоном. Такой комплект подойдет и мальчику, и девочке.                                                                 </description>
+    </product>
+        <product id="3">
+        <title>Kомбинезон с ушками</title>
+        <price>1570</price>
+        <image>3.jpg</image>
+         <description>Чудесный комбинезон с капюшоном, дополненным забавными «ушками», как у маленького милого медвежонка в бежевых тонах. Такой комплект подойдет
+и мальчику, и девочке.</description>
+    </product>
+     <product id="4">
+        <title>Белый комбинезон для улицы</title>
+        <price>1540</price>
+        <image>4.jpg</image>
+         <description>Белый комбинезон с капюшоном. Такой комплект подойдет для прогулок на свежем воздухе и мальчику, и девочке.</description>
+    </product>
+    <product id="5">
+        <title>Голубой комбинезон</title>
+        <price>1740</price>
+        <image>5.jpg</image>
+         <description>Голубой комбинезон с капюшоном. Такой комплект подойдет и мальчику, и девочке.</description>
+    </product>
+    <product id="6">
+        <title>Синий теплый комбинезон</title>
+        <price>1744</price>
+        <image>6.jpg</image>
+         <description>Синий теплый комбинезон с капюшоном. Такой комплект подойдет для прогулок на свежем воздухе и мальчику, и девочке.</description>
+    </product>
+      <product id="7">
+        <title>Серый комбинезон для улицы</title>
+        <price>1800</price>
+        <image>7.jpg</image>
+         <description>Серый комбинезон с капюшоном. Такой комплект подойдет для прогулок на свежем воздухе и мальчику, и девочке.</description>
+    </product>
+      <product id="8">
+        <title>Синий комбинезон для улицы</title>
+        <price>1950</price>
+        <image>8.jpg</image>
+         <description>Синий комбинезон с капюшоном и перчатками. Такой комплект подойдет для прогулок на свежем воздухе и мальчику, и девочке.</description>
+    </product>
+     <product id="9">
+        <title>Серый комбинезон для улицы</title>
+        <price>1890</price>
+        <image>9.jpg</image>
+         <description>Серый комбинезон с капюшоном и перчатками. Такой комплект подойдет для прогулок на свежем воздухе и мальчику, и девочке.</description>
+    </product>
+     <product id="10">
+        <title>Белый комбинезон с ушками</title>
+        <price>1000</price>
+        <image>10.jpg</image>
+         <description>Белый комбинезон с капюшоном с ушками. Такой комплект подойдет и мальчику, и девочке.</description>
+    </product>
+    </category>

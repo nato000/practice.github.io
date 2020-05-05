@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <meta http-equiv="content type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/responsive.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./fonts/font.css" rel="stylesheet">
+    <link href="./css/jquery-ui.css" rel="stylesheet">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/xml2json.js"></script>
+    <script src="./js/jquery.tmpl.min.js."></script>
+    <script src="./js/my.js"></script>
+    <script src="./js/jquery.cookie.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Два гусі </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm d-none d-sm-none d-md-none d-lg-block">
+                <div class="m-3">
+                    <input type="search" class="src">
+                    <button type="button" class="mybtn">
+                        <img src="./images/abtcomp.gif" class="image"> О компании
+                    </button>
+                    <button type="button" class="mybtn">
+                        <img src="./images/shipping.gif" class="image"> Доставка
+                    </button>
+                    <h5 class="myh1">Товары наши хороши - </h5>
+                    <h6 class="myh2">развивайтесь, малыши!</h6>
+                </div>
+            </div>
+            <div class="col-sm-auto">
+                <div class="m-3">
+                    <p class="text-center">
+                        <img src="./images/logo.gif" class="image" alt="2 гусі">
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm d-none d-sm-none d-md-none d-lg-block">
+                <div class="m-3">
+                    <img class="image" src="./images/call1.png" style="position:relative; top:-4px;">
+                    <text class="smh1">8 (916) 227 1234</text>
+                    <img class="image2" src="./images/time.png">
+                    <input type="image" class="image2" src="./images/phone.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-auto">
+                    <div id="content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <img src="./images/lg.png" class="image" style="margin-right:8%; margin-left: 6%;">
+            <img src="./images/call.png" class="image ">
+            <text class="smh d-none d-sm-none d-md-none d-lg-inline"
+                style="font-size: 16pt; margin-right:8%; display: inline; ">8 (916) 227 1234</text>
+            <img class="icon" style="background-position: 2px 0px;">
+            <img class="icon" style="background-position: -28px 0px;">
+            <img class="icon" style="background-position: -58px 0px;">
+            <img class="icon" style="background-position: -89px 0px;">
+            <img class="icon" style="background-position: -120 0px;">
+            <img class="icon" style="background-position: -179px 0px; ">
+            <img src="./images/gees.png" style="margin-left:5%; float:right bottom; bottom: 70px; position: relative;"
+                class="image d-none d-sm-none d-md-none d-lg-inline">
+        </footer>
+    </div>
+
+    <script id="oneProdTmpl" type="text/x-jquery-tmpl">
+        <a href="product.html#cat_id=13$id=${id}" class="itemh">${title}</a>
+        <text class="itembg">
+            <div class="media">
+                <img src="./img/${image}" type="image" class="itemimg" style="height:200px;width:auto;"> 
+                <table class="table-sm" style="background-color: none; font-size: 9pt; "> 
+                    <tbody>
+                        <tr><th scope="row">${description}</th></tr>
+                        
+                       
+                        <tr class="d-inline d-sm-inline d-md-none d-lg-none"><th scope="row">
+                            <img src="./images/chk.png">
+                            <p text style="color: #aec905; font-size: 10pt; display: inline;">В наличии<br><br></text></p>                      
+                            <text class="smh">${price}</text>
+                        </th></tr>
+                        <tr><th scope="row">
+                            <a href="#" data-id="${id}" data-name="${title}" data-link="./cart.html" class="buy">
+                            <input type="image" src="./images/buy.png" style="display: block; float: bottom left; margin-top:10px;">
+                        </a></th></tr>
+                        
+                    </tbody>
+                </table>
+               
+                <div class="container d-none d-sm-none d-md-block d-lg-block">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="m-2">
+                                <img src="./images/chk.png">
+                                <text style="color: #aec905; font-size: 10pt; display: inline;">В наличии</text><br><br>
+                                <text class="smh">   ${price} р.</text>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </text>
+
+   <text style="font-family: 'Trebuchet MS';font-weight: 700; display: block; margin-top: 20px;">Описание</text>
+   <text style="font-family: 'Trebuchet MS';display: block; margin-top: 20px; margin-bottom: 50px;;">${description}</text>
+    </script>
+
+    <script>
+        new MyShop('products.xml', 'product');
+    </script>
+</body>
